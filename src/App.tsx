@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Journal from "./pages/Journal";
 import Research from "./pages/Research";
 import AimsScope from "./pages/AimsScope";
+import Policy from "./pages/Policy";
 import EditorialBoard from "./pages/EditorialBoard";
 import Contact from "./pages/Contact";
 import SubmitPaper from "./pages/SubmitPaper";
@@ -49,6 +50,7 @@ const App = () => (
           <Route path="/journal" element={<Journal />} />
           <Route path="/research" element={<Research />} />
           <Route path="/aims-scope" element={<AimsScope />} />
+          <Route path="/policy" element={<Policy />} />
           <Route path="/editorial-board" element={<EditorialBoard />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/submit" element={<SubmitPaper />} />
